@@ -1,0 +1,100 @@
+.style_one {
+	list-style-type: none;
+}
+.style_one figure {
+	float: left;
+	margin-right: 15px; 
+}
+
+#stw {
+	margin-top: 25px;
+	font-family: Helvetica, 'Open Sans', Arial, sans-serif;
+	font-size: medium;
+}
+
+#stw p {
+	margin-bottom: 5px;
+	line-height: 20px;
+}
+
+@-moz-keyframes li_tw { 
+	from { opacity: 0; } 
+}
+@-webkit-keyframes li_tw {
+	from { opacity: 0; } 
+}
+@-ms-keyframes li_tw {
+	from { opacity: 0; } 
+}
+@-o-keyframes li_tw {
+	from { opacity: 0; } 
+}
+@keyframes li_tw{
+    from { opacity: 0; } 
+}
+
+#stw li {
+	-moz-animation: li_tw 6s ease-in-out 1;
+	-webkit-animation: li_tw 6s ease-in-out 1;
+	-ms-animation: li_tw 6s ease-in-out 1;
+	-o-animation: li_tw 6s ease-in-out 1;
+	animation: li_tw 6s ease-in-out 1;
+}
+
+@-moz-keyframes show-in { 
+	from { height: 110px; }
+}
+@-webkit-keyframes show-in {
+	from { height: 110px; }
+}
+@-ms-keyframes show-in {
+	from { height: 110px; } 
+}
+@-o-keyframes show-in {
+	from { height: 110px; } 
+}
+
+@keyframes show-in{
+    from { height: 110px; }
+}
+
+#salko-twitter-feed-widget {
+	border-top: 4px solid #1a1a1a;
+}
+
+.salko-twitter-feed-widget-in {
+	height: 110px;
+	overflow:hidden;
+	-moz-animation: show-in 4s ease-in-out 1;
+	-webkit-animation: show-in 4s ease-in-out 1;
+	-ms-animation: show-in 4s ease-in-out 1;
+	-o-animation: show-in 4s ease-in-out 1;
+	animation: show-in 4s ease-in-out 1;
+}
+
+@-moz-keyframes show-out { 
+	to { height: 110px; }
+}
+@-webkit-keyframes show-out {
+	to { height: 110px; }
+}
+@-ms-keyframes show-out {
+	to { height: 110px; } 
+}
+@-o-keyframes show-out {
+	to { height: 110px; } 
+}
+
+@keyframes show-out{
+    to { height: 110px; }
+}
+
+.salko-twitter-feed-widget-out {
+	height: 110px;
+	overflow:hidden;
+	-moz-animation: show-out 2s ease-in-out 1 forwards;
+	-webkit-animation: show-out 2s ease-in-out 1 forwards;
+	-ms-animation: show-out 2s ease-in-out 1 forwards;
+	-o-animation: show-out 2s ease-in-out 1 forwards;
+	animation: show-out 2s ease-in-out 1 forwards;
+}
